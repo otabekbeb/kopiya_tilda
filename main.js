@@ -3062,6 +3062,7 @@ var ID=""
 
 function Modal(id,key){
 document.querySelector(".like_modal").style="right:-100%;"
+document.querySelector("#like_modal_div").innerHTML=""
 ID=id
 
   // like bosilganla
@@ -3214,14 +3215,14 @@ function Modal_navbar4(){
     document.querySelectorAll(".main_card_modal_big_center_navbar_h1")[5].style="border-bottom: 1px solid #a5a3a3;"
     document.querySelector("#modal_alamshuv_divi").innerHTML=`<div class="modal_alamshuv_divi_big4">
     <p class="modal_alamshuv_divi_big4_desc">Компания China CNC сотрудничает с ведущими транспортными компаниями, которые помогают довозить ваши заказы в самые удаленные районы Российской Федерации.</p>
-    <div class="modal_alamshuv_divi_big4_tel">Чтобы уточнить сроки и стоимость доставки, обращайтесь по телефону: <p>+7 964 773-18-08</p></div>
+    <div class="modal_alamshuv_divi_big4_tel">Чтобы уточнить сроки и стоимость доставки, обращайтесь по телефону: <p>+8495-481-60-67</p></div>
     <h1 class="modal_alamshuv_divi_big1_h1_title">ОПЛАТА ТОВАРОВ</h1>
     <p class="modal_alamshuv_divi_big4_desc">Компания China CNC принимает следующие виды оплаты:</p>
     <ul>
     <li>Оплата наличными;</li>
     <li>Оплата по банковскому счету.</li>
     </ul>
-    <div class="modal_alamshuv_divi_big4_tel">Для поставки оборудования необходима предоплата. Условия обсуждаются по телефону: <p>+7 964 773-18-08</p></div>
+    <div class="modal_alamshuv_divi_big4_tel">Для поставки оборудования необходима предоплата. Условия обсуждаются по телефону: <p>+8495-481-60-67</p></div>
 </div>`
 }
 function Modal_navbar5(){

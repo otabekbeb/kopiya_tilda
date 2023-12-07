@@ -16,13 +16,13 @@
 .t-store .t-store__tabs__content {min-width: 100%;}
 
 .t890 {margin-left:50%;}
-h2.t-title_xs, h2.t-title_sm, h2.t-title_xxl {color: #e22b1d;font-size:42px;}
+h2.t-title_xs, h2.t-title_sm, h2.t-title_xxl {color: #255A6A !important;font-size:42px;}
 h3.t-title_xs {font-size:36px;}
 .t-sociallinks__item_telegram a, .t-sociallinks__item_whatsapp a {display:block;width:70px;padding:9px;text-align:center;border-radius:50px;background:#343434}
 .t-descr_xs {font-size:18px;}
 .t-slds__bullet_active .t-slds__bullet_body {opacity:0;}
 #rec396177647 .t228__list_item:last-child .t-menu__link-item:after {position:absolute;content:"NEW";font-size:12px;top:-5px;font-weight:bold;color:#000;}
-#rec396177647 .t228__list_item:last-child .t-menu__link-item.t-active:after {color:#fff;}
+/* #rec396177647 .t228__list_item:last-child .t-menu__link-item.t-active:after {color:#fff;} */
 #rec396177647 .t228__list_item {position:relative;}
 
 #specifications table {width:100%;border-collapse:collapse;margin-top:25px;font-family: 'OpinionPro',Arial,sans-serif;font-weight:300;color:#000;}

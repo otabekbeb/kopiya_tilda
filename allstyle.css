@@ -12,6 +12,7 @@
     margin: auto; 
     gap: 20px;
 }
+
 .main_card_big_div{
     width: 100%;
     max-width: 400px;
@@ -493,12 +494,15 @@
     align-items: center;
     justify-content: end;
 }
+#like_modal_div{
+    overflow-x: scroll;
+}
 .like_modal_div{
     width: 560px;
     height:100%;
-    max-width: 100%;
+    max-width: 96%;
     background-color: #fff;
-    padding: 40px;
+    padding: 2%;
 }
 .like_modal_div_close{
     margin-top: 10px;
@@ -617,6 +621,10 @@
     .search_none{
         width: 940px;
         max-width: 90%;
+    }
+    .blog_title{
+        width: 940px;
+        max-width: 95%;
     }
 }
 @media (max-width:961px) {
