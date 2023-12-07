@@ -406,7 +406,7 @@ Uri: https://static.tildacdn.com/tild3232-6538-4433-a431-623135343965/-/resize/2
 File Name: C:\Downloaded Web Sites\china-cnc.ru\tild3232-6538-4433-a431-623135343965\-\resize\20x\bg-min.jpg
 Content Type: image/jpeg
 
-Uri: https://static.tildacdn.com/tild3236-3062-4536-a163-616363393532/favicon.ico
+Uri: https://static.tildacdn.com/https://tokarni.netlify.app/politerra-logo.png
 File Name: C:\Downloaded Web Sites\china-cnc.ru\tild3236-3062-4536-a163-616363393532\favicon.ico
 Content Type: image/vnd.microsoft.icon
 
