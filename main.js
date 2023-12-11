@@ -3389,5 +3389,30 @@ function blog_modal(id){
     window.location="./blog1.html"
 }
 
+function postTelegram(){
+
+    var bot={
+        token:"6970849580:AAG7qARds9frtGSw4lBzSFxfFZ5eOJamHNo",
+        chatId:"-4064631700",
+    }
+
+
+    var salom={
+            name:document.querySelector("#input_1495810359387").value,
+            destcription:document.querySelector("#input_1626153430841").value,
+            phone:document.querySelector("#input_1495810410810").value,
+    }
+
+    fetch(`https://api.telegram.org/bot${bot.token}/sendMessage?chat_id=${bot.chatId}&text=${JSON.stringify(salom)}`,
+    {
+        method:'GET'
+    }
+    ).then(res=>{
+        alert("Xabar jo'natildi")
+    }).catch(err=>{
+        alert("Xabar jo'natilmadi")
+    })
+}
+
 
 
