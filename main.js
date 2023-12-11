@@ -3389,30 +3389,145 @@ function blog_modal(id){
     window.location="./blog1.html"
 }
 
+
 function postTelegram(){
 
-    var bot={
-        token:"6970849580:AAG7qARds9frtGSw4lBzSFxfFZ5eOJamHNo",
-        chatId:"-4064631700",
+    if(document.querySelector("#input_1495810359387").value==""){
+        document.querySelector("#input_1495810359387").style="border:1px solid red;"
+    }else{
+       document.querySelector("#input_1495810359387").style="border:1px solid #929aa2;"
+    }
+    if(document.querySelector("#input_1626153430841").value==""){
+        document.querySelector("#input_1626153430841").style="border:1px solid red;"
+    }else{
+       document.querySelector("#input_1626153430841").style="border:1px solid #929aa2;"
     }
 
+    if(document.querySelector("#input_1495810359387").value!=="" && document.querySelector("#input_1626153430841").value!=="" && document.querySelector("#input_1495810410810").value!==""){
+        var bot={
+            token:"6970849580:AAG7qARds9frtGSw4lBzSFxfFZ5eOJamHNo",
+            chatId:"5079836031",
+        }
+    
+        var a=document.querySelector("#input_1495810410810")
+    
+        var salom={
+                name:document.querySelector("#input_1495810359387").value,
+                destcription:document.querySelector("#input_1626153430841").value,
+                phone:a.getAttribute("data-phonemask-code")+a.value,
+        }
+    
+        fetch(`https://api.telegram.org/bot${bot.token}/sendMessage?chat_id=${bot.chatId}&text=О заказе+${JSON.stringify(salom)}`,
+        {
+            method:'GET'
+        }
+        ).then(res=>{
+            alert("Сообщение отправлено")
+        }).catch(err=>{
+            alert("Сообщение не было отправлено")
+        })
+    }
+}
 
-    var salom={
-            name:document.querySelector("#input_1495810359387").value,
-            destcription:document.querySelector("#input_1626153430841").value,
-            phone:document.querySelector("#input_1495810410810").value,
+function postTelegramContact(){
+ 
+    if(document.querySelector("#input_1496238230199").value==""){
+        document.querySelector("#input_1496238230199").style="border:1px solid red;-webkit-border-radius:50px;"
+    }else{
+       document.querySelector("#input_1496238230199").style="border:1px solid #929aa2;-webkit-border-radius:50px;"
+    }
+    if(document.querySelector("#input_1496238250184").value==""){
+        document.querySelector("#input_1496238250184").style="border:1px solid red;-webkit-border-radius:50px;"
+    }else{
+       document.querySelector("#input_1496238250184").style="border:1px solid #929aa2;-webkit-border-radius:50px;"
+    }
+    if(document.querySelector("#input_1496238230199").value!=="" && document.querySelector("#input_1496238250184").value!=="" && document.querySelector("#input_1496238259342").value!==""){
+        var bot={
+            token:"6970849580:AAG7qARds9frtGSw4lBzSFxfFZ5eOJamHNo",
+            chatId:"5079836031",
+        }
+    
+        var a=document.querySelector("#input_1496238259342")
+        var salom={
+                name:document.querySelector("#input_1496238230199").value,
+                email:document.querySelector("#input_1496238250184").value,
+                phone:a.getAttribute("data-phonemask-code")+a.value,
+        }
+    
+        fetch(`https://api.telegram.org/bot${bot.token}/sendMessage?chat_id=${bot.chatId}&text=Пишите, звоните или оставьте ваши контакты и
+        наш специалист свяжется с вами.+${JSON.stringify(salom)}`,
+        {
+            method:'GET'
+        }
+        ).then(res=>{
+            alert("Сообщение отправлено")
+        }).catch(err=>{
+            alert("Сообщение не было отправлено")
+        })
+    }else{
+
+    }
+}
+
+function postTelegramEmail(){
+
+    if(document.querySelector("#input_1496321990615").value==""){
+        document.querySelector("#input_1496321990615").style="border:1px solid red;"
+    }else{
+       document.querySelector("#input_1496321990615").style="border:1px solid #929aa2;"
     }
 
-    fetch(`https://api.telegram.org/bot${bot.token}/sendMessage?chat_id=${bot.chatId}&text=${JSON.stringify(salom)}`,
-    {
-        method:'GET'
+    if(document.querySelector("#input_1496321990615").value!=="" && document.querySelector("#input_1624372571849").value!==""){
+        var bot={
+            token:"6970849580:AAG7qARds9frtGSw4lBzSFxfFZ5eOJamHNo",
+            chatId:"5079836031",
+        }
+    
+        var a=document.querySelector("#input_1624372571849")
+        var salom={
+                name:document.querySelector("#input_1496321990615").value,
+                phone:a.getAttribute("data-phonemask-code")+a.value,
+        }
+    
+        fetch(`https://api.telegram.org/bot${bot.token}/sendMessage?chat_id=${bot.chatId}&text=Получить расчет на фрезерный и токарный станок с ЧПУ+${JSON.stringify(salom)}`,
+        {
+            method:'GET'
+        }
+        ).then(res=>{
+            alert("Сообщение отправлено")
+        }).catch(err=>{
+            alert("Сообщение не было отправлено")
+        })
     }
-    ).then(res=>{
-        alert("Xabar jo'natildi")
-    }).catch(err=>{
-        alert("Xabar jo'natilmadi")
-    })
 }
 
 
+setTimeout(() => {
+    document.querySelectorAll(".t-submit")[0].type="button"
+    document.querySelectorAll(".t-submit")[0].addEventListener('click',postTelegramMenejer)
+}, 1000);
+
+function postTelegramMenejer(){
+    if(document.querySelector("#input_1531306243545").value!==""){
+        var bot={
+            token:"6970849580:AAG7qARds9frtGSw4lBzSFxfFZ5eOJamHNo",
+            chatId:"5079836031",
+        }
+    
+        var a=document.querySelector("#input_1531306243545")
+        var salom={
+                phone:a.getAttribute("data-phonemask-code")+a.value,
+        }
+    
+        fetch(`https://api.telegram.org/bot${bot.token}/sendMessage?chat_id=${bot.chatId}&text=Получите консультацию менеджера+${JSON.stringify(salom)}`,
+        {
+            method:'GET'
+        }
+        ).then(res=>{
+            alert("Сообщение отправлено")
+        }).catch(err=>{
+            alert("Сообщение не было отправлено")
+        })
+    }
+}
 
