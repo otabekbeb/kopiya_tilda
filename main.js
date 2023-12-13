@@ -1,6 +1,7 @@
 const dataCard=[
     {
         "id":1,
+        "type":"DMTG",
         "image":'https://static.tildacdn.com/stor3162-3061-4465-b962-636333386630/26789115.jpg',
         "price":"102 000",
         "title":'Фрезерный обрабатывающий центр серии VDL',
@@ -221,6 +222,7 @@ const dataCard=[
     },
     {
         "id":2,
+        "type":"DMTG",
         "image":'https://thumb.tildacdn.com/stor3437-3764-4364-a539-633537303763/-/format/webp/70848743.jpg',
         "price":"68 000",
         "title":'ФРЕЗЕРНЫЙ ОБРАБАТЫВАЮЩИЙ ЦЕНТР СЕРИИ VDL S',
@@ -441,6 +443,7 @@ const dataCard=[
     },
     {
         "id":3,
+        "type":"DMTG",
         "image":'https://static.tildacdn.com/stor3734-6230-4235-b061-643731646331/27756622.jpg',
         "price":6023569,
         "title":'Фрезерный обрабатывающий центр серии VDF',
@@ -653,6 +656,7 @@ const dataCard=[
     },
     {
         "id":4,
+        "type":"DMTG",
         "image":'https://static.tildacdn.com/stor3063-3662-4632-b131-653131313036/63465704.jpg',
         "price":6023569,
         "title":'Горизонтальный обрабатывающий центр серии MDH',
@@ -890,6 +894,7 @@ const dataCard=[
     },
     {
         "id":5,
+        "type":"DMTG",
         "image":'https://static.tildacdn.com/stor6632-3763-4266-a138-363565623763/80072449.jpg',
         "price":"110 500",
         "title":'Портальный обрабатывающий центр серии DGMA',
@@ -1128,6 +1133,7 @@ const dataCard=[
     },
     {
         "id":6,
+        "type":"DMTG",
         "image":'https://static.tildacdn.com/stor6565-3031-4238-a434-636366616465/94803218.jpg',
         "price":"82 500",
         "title":'Токарный станок с наклонной станиной серии DL',
@@ -1358,6 +1364,7 @@ const dataCard=[
     },
     {
         "id":7,
+        "type":"DMTG",
         "image":'https://static.tildacdn.com/stor3533-6231-4837-a463-653964353232/27586596.jpg',
         "price":"62 500",
         "title":'Токарный станок с наклонной станиной серии CL',
@@ -1587,6 +1594,7 @@ const dataCard=[
     },
     {
         "id":8,
+        "type":"DMTG",
         "image":'https://static.tildacdn.com/stor3134-6131-4961-b966-316662616138/90607826.jpg',
         "price":"62 000",
         "title":'Токарный станок с ЧПУ серии CKE',
@@ -1799,6 +1807,7 @@ const dataCard=[
     },
     {
         "id":9,
+        "type":"DMTG",
         "image":'https://static.tildacdn.com/stor3731-3631-4339-a461-366266626230/16986297.jpg',
         "price":"165 000",
         "title":'Токарный станок с чпу тяжелой серии СКЕ-M',
@@ -2057,6 +2066,7 @@ const dataCard=[
     },
     {
         "id":10,
+        "type":"DMTG",
         "image":'https://static.tildacdn.com/stor3737-3363-4438-a139-643961326561/87381718.jpg',
         "price":"143 000",
         "title":'Вертикальный токарный станок с ЧПУ серии VT',
@@ -2285,6 +2295,7 @@ const dataCard=[
     },
     {
         "id":11,
+        "type":"DMTG",
         "image":'https://static.tildacdn.com/stor3464-3539-4239-b838-623462613430/76240921.jpg',
         "price":"151 000",
         "title":'Универсальный токарный станок тяжелой серии CW-M',
@@ -2506,6 +2517,7 @@ const dataCard=[
     },
     {
         "id":12,
+        "type":"DMTG",
         "image":'https://static.tildacdn.com/stor6562-3564-4762-b937-366163626132/36827214.jpg',
         "price":"73 000",
         "title":'Универсальный токарный станок серия CW-E',
@@ -2722,6 +2734,7 @@ const dataCard=[
     },
     {
         "id":13,
+        "type":"DMTG",
         "image":'https://static.tildacdn.com/stor3965-3764-4237-b166-303634643332/41048993.jpg',
         "price":"35 000",
         "title":'Универсальный токарно-винторезный станок серии CDS',
@@ -2939,6 +2952,38 @@ const dataCard=[
             }
         ],        
     },
+    {
+        "id":14,
+        "type":"WEIDA",
+        "image":'https://static.tildacdn.com/stor3666-3831-4534-b738-356261663932/14577796.jpg',
+        "title":'Токарные станки Weida с наклонной станиной серия TCK',
+        "shifr":"TCK",
+        "series":'TCK',
+        "razdel":'Токарные станки',
+        "destcription":"Станок серии TCK представляет собой полнофункциональный высокоточный токарный станок с ЧПУ, разработанный и спроектированный с использованием передовых зарубежных технологий. Дизайн и элементы управления были разработаны с учетом требований эргономики. Удобный, простой в эксплуатации и ремонтопригодный.Станок предназначен для выполнения чистовых и получистовых токарных операций, в том числе обработки чугунных отливок, с использованием высокоскоростных шпинделей. Осевое перемещение осуществляется высокоточными роликовыми направляющими серии HGH35, устойчивыми к вибрации. Обладает высокой жесткостью и может поворачиваться с большим припуском на обработку. При правильном программном обеспечении (система CAD/CAM) — ключе к эффективной работе станков с ЧПУ — инженеру-технологу требуется минимальное время для перенастройки станка. Простым изменением программы сложность переключения снижается на 80-90% по сравнению со сложностью этой операции на ручных станках, обеспечивая индивидуальность сложных деталей.Станок изготовлен в соответствии со стандартом точности GB/T 16462.1-2007.",
+        "images":[],
+        "destcription_text":[],
+        "options":[],
+        "standart":[],
+        "design":[],
+        "application":'Серия токарных станков TCK от Weida предназначена для обработки деталей средних и крупных размеров. Эти станки имеют наклонную станину, которая обеспечивает высокую жесткость и устойчивость к вибрации, что позволяет обрабатывать большие детали с высокой точностью и качеством.Станки этой серии могут оснащаться различными опциями, такими как система ЧПУ, шпиндель с повышенной скоростью, противовес, автоматическая смена инструмента и другие функции, которые улучшают производительность и эффективность производства.Эти станки могут использоваться для обработки различных материалов, таких как сталь, чугун, алюминий, латунь и другие. Они широко используются в производстве автомобилей, машиностроении, энергетике, медицине и других отраслях промышленности.Weida является одним из ведущих производителей токарных станков в мире, и его продукция известна своим качеством и надежностью. Станки Weida TCK - это надежный инструмент для производства качественных и точных деталей.',
+    },
+    {
+        "id":15,
+        "type":"WEIDA",
+        "image":'https://static.tildacdn.com/stor6337-6163-4162-b439-316262366136/29776235.jpg',
+        "title":'Токарные станки Weida с горизонтальной станиной серия CK',
+        "shifr":"CK",
+        "series":'CK',
+        "razdel":'Токарные станки',
+        "destcription":"Токарный станок Weida серии СК имеет горизонтально расположенные направляющие и используется для обработки наружного и внутреннего диаметров различных деталей, например тел вращения. Его конструкция основана на использовании проверенной технологии. Это означает скользящую направляющую (коробчатую) и механическую коробку передач с 3 диапазонами, которая автоматически регулирует скорость вращения шпинделя в пределах диапазона.Основное применение таких станков оправдано при получистовой и предварительной токарной обработке деталей за счет исключения больших наценок в средней производственной серии. Он хорошо зарекомендовал себя при точении литых заготовок как из стали, так и из чугуна. LXMT производит этот тип оборудования в соответствии со стандартом JB/T8324.1-1996.Соответствует классу Н по ГОСТ 8-82.",
+        "images":[],
+        "destcription_text":[],
+        "options":[],
+        "standart":[],
+        "design":[],
+        "application":'Токарные станки Weida с горизонтальной станиной серии CK являются высокоточными станками для токарной обработки различных деталей. Они отличаются высоким качеством и надежностью, а также простотой в эксплуатации.Станки данной серии оснащены шпинделем с центральным отверстием, что обеспечивает возможность обработки более крупных деталей. Кроме того, они имеют систему автоматического управления, что позволяет выполнить работу с большей точностью и скоростью.Токарные станки Weida серии CK обладают широким спектром возможностей по обработке различных материалов, таких как сталь, алюминий, медь и т.д. Благодаря своим характеристикам они используются в числе прочего для производства автоматической оборудования, гидравлических и пневматических компонентов, а также медицинских и оптических приборов.',
+    },
 ]
 const dataBlog=[
     {
@@ -3026,9 +3071,10 @@ const dataBlog=[
 var number=6
 
 setTimeout(()=>{
-    var a=dataCard.slice(0,number)
+    const Filter=dataCard.filter(item=>item.type=="DMTG")
+    var a=Filter.slice(0,number)
     a.map((item,key)=>{
-        document.querySelector(".main_card_big").innerHTML+=`
+        document.querySelector("#main_card_big").innerHTML+=`
         <div onclick="Modal('${item.id}','${key}')" class="main_card_big_div">
         <img src='${item.image}' alt="">
         <h1 class="main_card_big_div_price">${item.price} ₽</h1>
@@ -3040,6 +3086,7 @@ setTimeout(()=>{
        </div>
         `
     })
+
     document.querySelector("#like_fixed_length").innerHTML=JSON.parse(localStorage.getItem("like")).length
     if(JSON.parse(localStorage.getItem("like")).length==[]){
         document.querySelector(".like_fixed").style="display:none;"
@@ -3047,6 +3094,20 @@ setTimeout(()=>{
         document.querySelector(".like_fixed").style="display:flex;"
     }
 },1000)
+
+setTimeout(() => {
+    const Filter1=dataCard.filter(item=>item.type=="WEIDA")
+    var b=Filter1.slice(0,number)
+    b.map((item,key)=>{
+        document.querySelector("#main_card_big1").innerHTML+=`
+        <div onclick="Modal('${item.id}','${key}')" class="main_card_big_div">
+        <img src='${item.image}' alt="">
+        <h1 style="font-size:25px;" class="main_card_big_div_text">${item.title}</h1>
+       </div>
+        `
+    })
+}, 1000);
+
 setTimeout(()=>{
     dataBlog.map(item=>{
      document.querySelector("#main_card_blog").innerHTML+=`<div onclick="blog_modal('${item.id}')" class="main_card_blog_div">
@@ -3142,11 +3203,8 @@ document.querySelector("#main_xusus_boshqa1").innerHTML=`Серия: ${item.seri
 document.querySelector("#main_xusus_boshqa2").innerHTML=`Раздел: ${item.razdel}`
 document.querySelector("#main_xusus_boshqa3").innerHTML=`Категория: ${item.category}`
 document.querySelector("#modal_alamshuv_divi").innerHTML=`<div class="modal_alamshuv_divi_big1">
-<h1 class="modal_alamshuv_divi_big1_h1_title">ОТЛИЧИТЕЛЬНЫЕ ОСОБЕННОСТИ:</h1>
 <ul id="modal_ul"></ul>
-<h1 class="modal_alamshuv_divi_big1_h1_title1">ОБЛАСТЬ ПРИМЕНЕНИЯ:</h1>
 <p class="main_card_modal_big_center_desc1">${item.application}</p>
-<h1 class="modal_alamshuv_divi_big1_h1_title1">КОНСТРУКТИВНЫЕ ОСОБЕННОСТИ:</h1>
 </div>`
 item.destcription_text.map(item1=>{
     document.querySelector("#modal_ul").innerHTML+=`<li>${item1.text}</li>` 
@@ -3182,11 +3240,8 @@ function Modal_navbar1(){
     const Filter=dataCard.filter(item=>item.id==ID)
     Filter.map(item=>{
     document.querySelector("#modal_alamshuv_divi").innerHTML=`<div class="modal_alamshuv_divi_big1">
-    <h1 class="modal_alamshuv_divi_big1_h1_title">ОТЛИЧИТЕЛЬНЫЕ ОСОБЕННОСТИ:</h1>
     <ul id="modal_ul"></ul>
-    <h1 class="modal_alamshuv_divi_big1_h1_title1">ОБЛАСТЬ ПРИМЕНЕНИЯ:</h1>
     <p class="main_card_modal_big_center_desc1">${item.application}</p>
-    <h1 class="modal_alamshuv_divi_big1_h1_title1">КОНСТРУКТИВНЫЕ ОСОБЕННОСТИ:</h1>
     </div>`
     item.destcription_text.map(item1=>{
         document.querySelector("#modal_ul").innerHTML+=`<li>${item1.text}</li>` 
