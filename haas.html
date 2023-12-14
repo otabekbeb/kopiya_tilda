@@ -3486,7 +3486,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#D9e22b1d', en
       </div>
     </div>
     <div id="hello_card"></div>
-     <div id="main_card_big" class="main_card_big">
+     <div id="main_card_big1" class="main_card_big">
         <!-- <div class="main_card_big_div">
          <img src="https://static.tildacdn.com/stor3063-3662-4632-b131-653131313036/63465704.jpg" alt="">
          <h1 class="main_card_big_div_price">9035354 ₽</h1>
@@ -4543,19 +4543,19 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#D9e22b1d', en
         <h1 id="main_title" class="main_card_modal_big_center_title"></h1>
         <h2 class="main_card_modal_big_center_articel">Haas</h2>
         <h2 id="main_articel" class="main_card_modal_big_center_articel"></h2>
-        <p id="main_price" class="main_card_modal_big_center_price"></p>
-         <div id="main_xusus1" class="main_card_modal_big_center_xusus"></div>
-         <div id="main_xusus2" class="main_card_modal_big_center_xusus"></div>
-         <div id="main_xusus3" class="main_card_modal_big_center_xusus"></div>
+        <p style="display: none;" id="main_price" class="main_card_modal_big_center_price"></p>
+         <div style="display: none;" id="main_xusus1" class="main_card_modal_big_center_xusus"></div>
+         <div style="display: none;" id="main_xusus2" class="main_card_modal_big_center_xusus"></div>
+         <div style="display: none;" id="main_xusus3" class="main_card_modal_big_center_xusus"></div>
          <div class="main_card_modal_big_center_button"><a href="#popup:callme"><button >Получить консультацию</button></a><button  onclick="like_post()"><i  id="read" class='bx bx-heart'></i></button></div>
          <p id="main_destcription" class="main_card_modal_big_center_desc"></p>
          <div id="main_xusus_boshqa1" class="main_card_modal_big_center_xusus_boshqa"></div>
          <div id="main_xusus_boshqa2" class="main_card_modal_big_center_xusus_boshqa"></div>
          <div id="main_xusus_boshqa3" class="main_card_modal_big_center_xusus_boshqa"></div>
          <div class="main_card_modal_big_center_navbar">
-          <div onclick="Modal_navbar1()" class="main_card_modal_big_center_navbar_h1"><h1>Описа...</h1></div>
-          <div onclick="Modal_navbar2()" class="main_card_modal_big_center_navbar_h1"><h1>Характер...</h1></div>
-          <div onclick="Modal_navbar3()" class="main_card_modal_big_center_navbar_h1"><h1>Компле...</h1></div>
+          <div onclick="Modal_navbar1()" class="main_card_modal_big_center_navbar_h1"></div>
+          <div onclick="Modal_navbar2()" class="main_card_modal_big_center_navbar_h1"></div>
+          <div onclick="Modal_navbar3()" class="main_card_modal_big_center_navbar_h1"></div>
           <div onclick="Modal_navbar4()" class="main_card_modal_big_center_navbar_h1"><h1>Доставка...</h1></div>
           <div onclick="Modal_navbar5()" class="main_card_modal_big_center_navbar_h1"><h1>Сервис...</h1></div>
           <div onclick="Modal_navbar6()" class="main_card_modal_big_center_navbar_h1"><h1>Ли...</h1></div>
@@ -4596,6 +4596,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#D9e22b1d', en
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
+    localStorage.setItem("type","Haas")
     var swiper = new Swiper(".mySwiper", {
       spaceBetween: 10,
       slidesPerView: 10,

@@ -4521,6 +4521,10 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#D9e22b1d', en
   </noscript> <!-- /Yandex.Metrika counter -->
 
 
+  <div onclick="likeModalOpen()" class="like_fixed">
+      <i class='bx bx-heart'></i>
+      <h1 id="like_fixed_length"></h1>
+    </div>
 
   <div class="main_card_modal_big">
      <div class="main_card_modal_big_div_close">
@@ -4566,10 +4570,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#D9e22b1d', en
     </div>
 
 
-    <div onclick="likeModalOpen()" class="like_fixed">
-      <i class='bx bx-heart'></i>
-      <h1 id="like_fixed_length"></h1>
-    </div>
+
 
     <div class="like_modal">
       <div class="like_modal_div">
@@ -4595,6 +4596,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#D9e22b1d', en
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
+    localStorage.setItem("type","WEIDA")
     var swiper = new Swiper(".mySwiper", {
       spaceBetween: 10,
       slidesPerView: 10,
