@@ -31595,9 +31595,9 @@ function SearchFilter(){
 
     document.querySelector(".main_card_big").innerHTML=""
     if(localStorage.getItem("type")!=="DMTG"){
-        if(Filter.length>0){
+        if(Filter2.length>0){
             document.querySelector("#hello_card").innerHTML=""
-            Filter.map((item,key)=>{
+            Filter2.map((item,key)=>{
                 document.querySelector("#main_card_big1").innerHTML+=`
                 <div onclick="Modal('${item.id}','${key}')" class="main_card_big_div">
                 <img src='${item.image.img}' alt="">
@@ -31608,9 +31608,9 @@ function SearchFilter(){
             document.querySelector("#hello_card").innerHTML=`<div class="search_none">Не найдено</div>`
         }
     }else{
-        if(Filter.length>0){
+        if(Filter2.length>0){
             document.querySelector("#hello_card").innerHTML=""
-            Filter.map((item,key)=>{
+            Filter2.map((item,key)=>{
                 document.querySelector("#main_card_big").innerHTML+=`
                 <div onclick="Modal('${item.id}','${key}')" class="main_card_big_div">
                 <img src='${item.image.img}' alt="">
@@ -31656,7 +31656,7 @@ function postTelegram(){
     if(document.querySelector("#input_1495810359387").value!=="" && document.querySelector("#input_1626153430841").value!=="" && document.querySelector("#input_1495810410810").value!==""){
         var bot={
             token:"6970849580:AAG7qARds9frtGSw4lBzSFxfFZ5eOJamHNo",
-            chatId:"5079836031",
+            chatId:"-4063784662",
         }
     
         var a=document.querySelector("#input_1495810410810")
@@ -31694,7 +31694,7 @@ function postTelegramContact(){
     if(document.querySelector("#input_1496238230199").value!=="" && document.querySelector("#input_1496238250184").value!=="" && document.querySelector("#input_1496238259342").value!==""){
         var bot={
             token:"6970849580:AAG7qARds9frtGSw4lBzSFxfFZ5eOJamHNo",
-            chatId:"5079836031",
+            chatId:"-4063784662",
         }
     
         var a=document.querySelector("#input_1496238259342")
@@ -31730,7 +31730,7 @@ function postTelegramEmail(){
     if(document.querySelector("#input_1496321990615").value!=="" && document.querySelector("#input_1624372571849").value!==""){
         var bot={
             token:"6970849580:AAG7qARds9frtGSw4lBzSFxfFZ5eOJamHNo",
-            chatId:"5079836031",
+            chatId:"-4063784662",
         }
     
         var a=document.querySelector("#input_1624372571849")
@@ -31761,7 +31761,7 @@ function postTelegramMenejer(){
     if(document.querySelector("#input_1531306243545").value!==""){
         var bot={
             token:"6970849580:AAG7qARds9frtGSw4lBzSFxfFZ5eOJamHNo",
-            chatId:"5079836031",
+            chatId:"-4063784662",
         }
     
         var a=document.querySelector("#input_1531306243545")
