@@ -31579,13 +31579,15 @@ function SearchFilter(){
     var Filter2=dataCard
     var Filter1=dataCard.filter(item=>item.type==localStorage.getItem("type"))
     Filter2=Filter1.filter(item=>((item.title).toLowerCase()).includes((document.querySelector("#search_input").value).toLowerCase()))
+    Filter3=Filter1.filter(item=>((item.title).toLowerCase()).includes((document.querySelector("#search_input").value).toLowerCase()))
+
     if(Filter2.length>6){
-        var Filter=Filter2.slice(0,number)
+        Filter2=Filter2.slice(0,number)
         if(dataCardButton.length==Filter2.length){
             dataCardButton=dataCard
         }
         else{
-            dataCardButton=Filter2
+            dataCardButton=Filter3
         }
         console.log(dataCardButton,"salom");
         document.querySelector(".main_button_div").style="display:flex";
