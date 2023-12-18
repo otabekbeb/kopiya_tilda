@@ -9587,7 +9587,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 205,
+        "id": 2109210212,
         "type": "Mazak",
         "title": "Токарный станок с ЧПУ QUICK TURN SMART 100 S",
         "series": "QUICK TURN SMART",
@@ -9615,7 +9615,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 206,
+        "id": 212121019912,
         "type": "Mazak",
         "title": "Токарный станок с ЧПУ QUICK TURN SMART 100M S",
         "series": "QUICK TURN SMART",
@@ -9643,7 +9643,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 207,
+        "id": 09876543123456789,
         "type": "Mazak",
         "title": "Токарный станок с ЧПУ QUICK TURN SMART 150 S",
         "series": "QUICK TURN SMART",
@@ -9671,7 +9671,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 208,
+        "id": 2090112312,
         "type": "Mazak",
         "title": "Токарный станок с ЧПУ QUICK TURN SMART 200",
         "series": "QUICK TURN SMART",
@@ -9699,7 +9699,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 209,
+        "id": 09012121,
         "type": "Mazak",
         "title": "Токарный станок с ЧПУ QUICK TURN SMART 200 L",
         "series": "QUICK TURN SMART",
@@ -9727,7 +9727,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 210,
+        "id": 21009081,
         "type": "Mazak",
         "title": "Токарный станок с ЧПУ QUICK TURN SMART 200M",
         "series": "QUICK TURN SMART",
@@ -9755,7 +9755,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 197,
+        "id": 112990922,
         "type": "Mazak",
         "title": "Токарный станок с ЧПУ QUICK TURN SMART 200M L",
         "series": "QUICK TURN SMART",
@@ -9783,7 +9783,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 198,
+        "id": 2123212990,
         "type": "Mazak",
         "title": "Токарный станок с ЧПУ QUICK TURN SMART 250",
         "series": "QUICK TURN SMART",
@@ -9811,7 +9811,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 199,
+        "id": 2134321221,
         "type": "Mazak",
         "title": "Токарный станок с ЧПУ QUICK TURN SMART 250 L",
         "series": "QUICK TURN SMART",
@@ -9839,7 +9839,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 200,
+        "id": 210293111,
         "type": "Mazak",
         "title": "Токарный станок с ЧПУ QUICK TURN SMART 250M",
         "series": "QUICK TURN SMART",
@@ -9867,7 +9867,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 201,
+        "id": 2121432097,
         "type": "Mazak",
         "title": "Токарный станок с ЧПУ QUICK TURN SMART 250M L",
         "series": "QUICK TURN SMART",
@@ -9895,7 +9895,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 202,
+        "id": 333217852,
         "type": "Mazak",
         "title": "Токарный станок с ЧПУ QUICK TURN SMART 300",
         "series": "QUICK TURN SMART",
@@ -9923,7 +9923,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 203,
+        "id": 4342121234,
         "type": "Mazak",
         "title": "Токарный станок с ЧПУ QUICK TURN SMART 300M",
         "series": "QUICK TURN SMART",
@@ -9951,7 +9951,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 204,
+        "id": 3335122234,
         "type": "Mazak",
         "title": "Токарный станок с ЧПУ QUICK TURN SMART 350",
         "series": "QUICK TURN SMART",
@@ -9979,7 +9979,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 205,
+        "id": 212121232421121,
         "type": "Mazak",
         "title": "Токарный станок с ЧПУ QUICK TURN SMART 350M",
         "series": "QUICK TURN SMART",
@@ -10007,7 +10007,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 206,
+        "id": 22212210,
         "type": "Mazak",
         "title": "Токарный станок с ЧПУ SLANT TURN 500",
         "series": "SLANT TURN",
@@ -13049,7 +13049,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 32,
+        "id": 321221,
         "type": "Tsugami",
         "title": "Автоматический станок с ЧПУ для обработки высоколегированной стали B075-III",
         "series": "B0-III",
@@ -13077,7 +13077,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 33,
+        "id": 32123233,
         "type": "Tsugami",
         "title": "Автоматический станок с ЧПУ для обработки высоколегированной стали B0123-III",
         "series": "B0-III",
@@ -13105,7 +13105,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 34,
+        "id": 321231214,
         "type": "Tsugami",
         "title": "Автоматический станок с ЧПУ для обработки высоколегированной стали B0203-III",
         "series": "B0-III",
@@ -13133,7 +13133,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 35,
+        "id": 3322125,
         "type": "Tsugami",
         "title": "Автоматический станок с ЧПУ для обработки высоколегированной стали B0124-III",
         "series": "B0-III",
@@ -13161,7 +13161,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 36,
+        "id": 3213243216,
         "type": "Tsugami",
         "title": "Автоматический станок с ЧПУ для обработки высоколегированной стали B0204-III",
         "series": "B0-III",
@@ -13189,7 +13189,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 37,
+        "id": 3232453217,
         "type": "Tsugami",
         "title": "Автоматический станок с ЧПУ для обработки высоколегированной стали B0125-III",
         "series": "B0-III",
@@ -13217,7 +13217,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 38,
+        "id": 3435321348,
         "type": "Tsugami",
         "title": "Автоматический станок с ЧПУ для обработки высоколегированной стали B0205-III",
         "series": "B0-III",
@@ -13245,7 +13245,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 39,
+        "id": 321345643219,
         "type": "Tsugami",
         "title": "Автоматический станок с ЧПУ для обработки высоколегированной стали B0126-III",
         "series": "B0-III",
@@ -13273,7 +13273,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 40,
+        "id": 4343212345676540,
         "type": "Tsugami",
         "title": "Автоматический станок с ЧПУ для обработки высоколегированной стали B0206-III",
         "series": "B0-III",
@@ -13301,7 +13301,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 41,
+        "id": 41212345576531,
         "type": "Tsugami",
         "title": "Автоматический станок с ЧПУ для обработки высоколегированной стали S205-II",
         "series": "S-II",
@@ -13329,7 +13329,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 42,
+        "id": 432564321212,
         "type": "Tsugami",
         "title": "Автоматический станок с ЧПУ для обработки высоколегированной стали S206-II",
         "series": "S-II",
@@ -13357,7 +13357,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 43,
+        "id": 4323456212,
         "type": "Tsugami",
         "title": "Автоматический станок с ЧПУ для обработки высоколегированной стали S205A-II",
         "series": "SA-II",
@@ -13385,7 +13385,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 44,
+        "id": 4421345425555,
         "type": "Tsugami",
         "title": "Автоматический станок с ЧПУ для обработки высоколегированной стали S206A-II",
         "series": "SA-II",
@@ -13413,7 +13413,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 45,
+        "id": 2345432333,
         "type": "Tsugami",
         "title": "Автоматический станок с ЧПУ для обработки высоколегированной стали SS207-II",
         "series": "SS-II",
@@ -13441,7 +13441,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 46,
+        "id": 12344322222,
         "type": "Tsugami",
         "title": "Автоматический станок с ЧПУ для обработки высоколегированной стали SS207-II-5AX",
         "series": "SS-II-5AX",
@@ -13469,7 +13469,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 47,
+        "id": 2343212222,
         "type": "Tsugami",
         "title": "Автоматический станок с ЧПУ для обработки высоколегированной стали SS267-III",
         "series": "SS-III",
@@ -13497,7 +13497,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 48,
+        "id": 1224333,
         "type": "Tsugami",
         "title": "Автоматический станок с ЧПУ для обработки высоколегированной стали SS327-III",
         "series": "SS-III",
@@ -13525,7 +13525,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 49,
+        "id": 23453212122,
         "type": "Tsugami",
         "title": "Автоматический станок с ЧПУ для обработки высоколегированной стали S267-III-5AX",
         "series": "S-III-5AX",
@@ -13553,7 +13553,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 50,
+        "id": 502222,
         "type": "Tsugami",
         "title": "Автоматический станок с ЧПУ для обработки высоколегированной стали SS327-III-5AX",
         "series": "SS-III-5AX",
@@ -13581,7 +13581,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 51,
+        "id": 51121212,
         "type": "Tsugami",
         "title": "Автоматический станок с ЧПУ для обработки высоколегированной стали SS26",
         "series": "SS",
@@ -13609,7 +13609,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 52,
+        "id": 5233212,
         "type": "Tsugami",
         "title": "Автоматический станок с ЧПУ для обработки высоколегированной стали SS32",
         "series": "SS",
@@ -13637,7 +13637,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 53,
+        "id": 5333333,
         "type": "Tsugami",
         "title": "Автоматический станок с ЧПУ для обработки высоколегированной стали SS32L",
         "series": "SS",
@@ -13665,7 +13665,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 54,
+        "id": 5434321111,
         "type": "Tsugami",
         "title": "Автоматический станок с ЧПУ для обработки высоколегированной стали B038T",
         "series": "BT",
@@ -13693,7 +13693,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 55,
+        "id": 55121121,
         "type": "Tsugami",
         "title": "Автоматический станок с ЧПУ для обработки высоколегированной стали C300-V",
         "series": "CV",
@@ -13721,7 +13721,7 @@ const dataCard=[
         "options": null
     },
     {
-        "id": 56,
+        "id": 5621234321,
         "type": "Tsugami",
         "title": "Автоматический станок с ЧПУ для обработки высоколегированной стали C180",
         "series": "C",
@@ -31270,11 +31270,13 @@ function main_button(){
 }
 
 var ID=""
+var KEY=""
 
 function Modal(id,key){
 document.querySelector(".like_modal").style="right:-100%;"
 document.querySelector("#like_modal_div").innerHTML=""
 ID=id
+KEY=key
 
   // like bosilganla
 //   var like=[]
@@ -31282,7 +31284,7 @@ ID=id
 
   var a=false
   for (let i = 0; i < like.length; i++) {
-  if(like[i].id==id){
+  if(like[i].id==id && like[i].type==localStorage.getItem("type")){
   a=true
   }
       
@@ -31516,12 +31518,13 @@ function like_post(){
         var push=true
         var delete_key
         for (let i = 0; i < a.length; i++) {
-           if(a[i].id==ID){
+           if(a[i].id==ID && a[i].type==localStorage.getItem("type")){
 delete_key=i
 push=false
            }
         }
-const Filter=dataCard.filter(item=>item.id==ID)
+    const Filter1=dataCard.filter(item=>item.type==localStorage.getItem("type"))
+const Filter=Filter1.filter((item,key)=>key==KEY)
 if(push){
   a.push(Filter[0])
 }else{
