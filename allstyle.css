@@ -495,7 +495,8 @@
     justify-content: end;
 }
 #like_modal_div{
-    overflow-x: scroll;
+    height: 100%;
+    overflow: scroll;
 }
 .like_modal_div{
     width: 560px;
