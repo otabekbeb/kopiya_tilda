@@ -31546,7 +31546,6 @@ JSON.parse(localStorage.getItem("like")).map((item,key)=>{
     <div onclick="Modal('${item.id}','${key}')" class="like_modal_div_card_title">
     <h1>${item.title}</h1>  
     </div>
-    <h1 class="like_modal_div_card_price">${item.price?`${item.price} руб`:""}</h1>
     <div class="like_modal_div_close2"><i onclick="likeClose(${key})" class='bx bx-x' ></i></div>
     </div>`
 })
