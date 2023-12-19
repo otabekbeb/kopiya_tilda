@@ -31582,8 +31582,6 @@ function SearchFilter(){
     var Filter1=dataCard.filter(item=>item.type==localStorage.getItem("type"))
     var Filter2=Filter1.filter(item=>((item.title).toLowerCase()).includes((document.querySelector("#search_input").value).toLowerCase()))
 
-    console.log(Filter2,"salom")
-
     if(Filter2.length>6){
         if(dataCardButton.length==Filter2.length){
             dataCardButton=dataCard
@@ -31595,7 +31593,7 @@ function SearchFilter(){
     }else{
         document.querySelector(".main_button_div").style="display:none"
     }
-    Filter2=Filter2.slice(0,6)
+    Filter2=Filter2.slice(0,number)
 
     document.querySelector(".main_card_big").innerHTML=""
     if(localStorage.getItem("type")!=="DMTG"){
