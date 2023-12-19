@@ -31188,7 +31188,6 @@ setTimeout(()=>{
         document.querySelector("#main_card_big").innerHTML+=`
         <div onclick="Modal('${item.id}','${key}')" class="main_card_big_div">
         <img src='${item.image.img}' alt="">
-        <h1 class="main_card_big_div_price">${item.price} ₽</h1>
         <p class="main_card_big_div_text">${item.title}</p>
         <span class="main_card_big_div_modul">Артикул: ${item.shifr}</span>
         <div class="main_card_big_div_small_xusus"><h1>Мощность</h1><p>${item.power}</p></div>
@@ -31254,7 +31253,6 @@ function main_button(){
             document.querySelector("#main_card_big").innerHTML+=`
             <div onclick="Modal('${item.id}','${key}')" class="main_card_big_div">
             <img src='${item.image.img}' alt="">
-            <h1 class="main_card_big_div_price">${item.price} ₽</h1>
             <p class="main_card_big_div_text">${item.title}</p>
             <span class="main_card_big_div_modul">Артикул: ${item.shifr}</span>
             <div class="main_card_big_div_small_xusus"><h1>Мощность</h1><p>${item.power}</p></div>
@@ -31468,10 +31466,10 @@ function Modal_navbar4(){
     document.querySelectorAll(".main_card_modal_big_center_navbar_h1")[4].style="border-bottom: 1px solid #a5a3a3;"
     document.querySelectorAll(".main_card_modal_big_center_navbar_h1")[5].style="border-bottom: 1px solid #a5a3a3;"
     document.querySelector("#modal_alamshuv_divi").innerHTML=`<div class="modal_alamshuv_divi_big4">
-    <p class="modal_alamshuv_divi_big4_desc">Компания China CNC сотрудничает с ведущими транспортными компаниями, которые помогают довозить ваши заказы в самые удаленные районы Российской Федерации.</p>
+    <p class="modal_alamshuv_divi_big4_desc">Компания сотрудничает с ведущими транспортными компаниями, которые помогают довозить ваши заказы в самые удаленные районы Российской Федерации.</p>
     <div class="modal_alamshuv_divi_big4_tel">Чтобы уточнить сроки и стоимость доставки, обращайтесь по телефону: <p>+8495-481-60-67</p></div>
     <h1 class="modal_alamshuv_divi_big1_h1_title">ОПЛАТА ТОВАРОВ</h1>
-    <p class="modal_alamshuv_divi_big4_desc">Компания China CNC принимает следующие виды оплаты:</p>
+    <p class="modal_alamshuv_divi_big4_desc">Компания принимает следующие виды оплаты:</p>
     <ul>
     <li>Оплата наличными;</li>
     <li>Оплата по банковскому счету.</li>
@@ -31499,7 +31497,7 @@ function Modal_navbar6(){
     document.querySelectorAll(".main_card_modal_big_center_navbar_h1")[3].style="border-bottom: 1px solid #a5a3a3;"
     document.querySelectorAll(".main_card_modal_big_center_navbar_h1")[4].style="border-bottom: 1px solid #a5a3a3;"
     document.querySelector("#modal_alamshuv_divi").innerHTML=`<div class="modal_alamshuv_divi_big6">
-    <p class="modal_alamshuv_divi_big6_desc">В компании China CNC вы можете приобрести необходимое для вашего производства оборудование в лизинг. Наши специалисты помогут подобрать для вас самое выгодное предложение от нескольких лизинговых компаний.</p>
+    <p class="modal_alamshuv_divi_big6_desc">В компании вы можете приобрести необходимое для вашего производства оборудование в лизинг. Наши специалисты помогут подобрать для вас самое выгодное предложение от нескольких лизинговых компаний.</p>
     <h1 class="modal_alamshuv_divi_big1_h1_title">К преимуществам лизинга относят:</h1>
     <ul>
     <li>Оборудование поставляется сразу после оплаты аванса в лизинговую компанию;</li>
