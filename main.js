@@ -31171,13 +31171,16 @@ const dataBlog=[
 
 var number=6
 
-setTimeout(()=>{
-    if(JSON.parse(localStorage.getItem("like")).length==[]){
+setTimeout(() => {
+        if(JSON.parse(localStorage.getItem("like")).length==[]){
         document.querySelector(".like_fixed").style="display:none;"
-    }else{
+        }else{
         document.querySelector(".like_fixed").style="display:flex;"
-    }
+        }
     document.querySelector("#like_fixed_length").innerHTML=JSON.parse(localStorage.getItem("like")).length
+}, 1000);
+
+setTimeout(()=>{
 
     const Filter=dataCard.filter(item=>item.type=="DMTG")
     var a=Filter.slice(0,number)
@@ -31576,24 +31579,23 @@ document.querySelector("#like_fixed_length").innerHTML=b.length
 localStorage.setItem("like",JSON.stringify(b))
 }
 function SearchFilter(){
-    var Filter2=dataCard
     var Filter1=dataCard.filter(item=>item.type==localStorage.getItem("type"))
-    Filter2=Filter1.filter(item=>((item.title).toLowerCase()).includes((document.querySelector("#search_input").value).toLowerCase()))
-    Filter3=Filter1.filter(item=>((item.title).toLowerCase()).includes((document.querySelector("#search_input").value).toLowerCase()))
+    var Filter2=Filter1.filter(item=>((item.title).toLowerCase()).includes((document.querySelector("#search_input").value).toLowerCase()))
+
+    console.log(Filter2,"salom")
 
     if(Filter2.length>6){
-        Filter2=Filter2.slice(0,number)
         if(dataCardButton.length==Filter2.length){
             dataCardButton=dataCard
         }
         else{
-            dataCardButton=Filter3
+            dataCardButton=Filter2
         }
-        console.log(dataCardButton,"salom");
         document.querySelector(".main_button_div").style="display:flex";
     }else{
         document.querySelector(".main_button_div").style="display:none"
     }
+    Filter2=Filter2.slice(0,6)
 
     document.querySelector(".main_card_big").innerHTML=""
     if(localStorage.getItem("type")!=="DMTG"){
